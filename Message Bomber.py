@@ -12,7 +12,7 @@ time.sleep(5)
 print('Now Just Sit Back.')
 for i in range(run):
     pt.write(msg)
-    time.sleep(0.05)
+    time.sleep(0.01)
     pt.press('Enter')
     counter += 1
     print(counter)
