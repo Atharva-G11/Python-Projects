@@ -36,11 +36,11 @@ def main() -> None:
     total = compute_cost + storage_cost + egress_cost
 
     print("\nEstimated monthly cost")
-    print(f"  Compute:       $${compute_cost:.2f}")
-    print(f"  Storage:       $${storage_cost:.2f}")
-    print(f"  Data transfer: $${egress_cost:.2f}")
+    print(f"  Compute:       ${compute_cost:.2f}")
+    print(f"  Storage:       ${storage_cost:.2f}")
+    print(f"  Data transfer: ${egress_cost:.2f}")
     print("  " + "-" * 25)
-    print(f"  Total:         $${total:.2f}")
+    print(f"  Total:         ${total:.2f}")
     print("\nThis is an estimate, not a provider quote.")
 
 
